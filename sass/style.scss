@@ -1,0 +1,90 @@
+/* Variables */
+$color-main: #ff5e57;
+$color-light: #fff;
+
+/* Global */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    background: #fff;
+    color: #3d3d3d;
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+section {
+    padding: 108px 0;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Splash */
+.splash {
+    height: 100vh;
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url('https://images.pexels.com/photos/574077/pexels-photo-574077.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+.splash-inner {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.splash i {
+    font-size: 30px;
+    background: $color-main;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    color: $color-light;
+    border-radius: 50%;
+}
+
+.page-title::after {
+    position: absolute;
+    content: '';
+    bottom: 48px;
+    left: 50%;
+    width: 100px;
+    height: 10px;
+    transform: translateX(-50%);
+    background: $color-main;
+}
+
+.page-subtitle {
+    color: $color-light;
+    font-size: 18px;
+    margin: 48px 0 0 0;
+}
+
+/* Intro */
+.intro {
+    background: $color-light;
+}
+
+.intro p {
+    width: 70%;
+    margin: 0 auto;
+    padding: 48px 0;
+    font-size: 24px;
+    border-top: 1px solid #3d3d3d;
+    border-bottom: 1px solid #3d3d3d;
+}
