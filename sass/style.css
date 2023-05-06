@@ -13,6 +13,7 @@ body {
   color: #3d3d3d;
   font-size: 16px;
   line-height: 1.7;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 section {
@@ -29,6 +30,7 @@ section {
   position: relative;
   font-size: 36px;
   margin: 0 0 60px 0;
+  font-family: "Open Sans", sans-serif;
 }
 
 .section-title::after {
@@ -50,7 +52,6 @@ section {
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
-  color: #fff;
 }
 
 .splash-inner {
@@ -69,6 +70,13 @@ section {
   line-height: 60px;
   color: #fff;
   border-radius: 50%;
+}
+
+.page-title {
+  color: #fff;
+  font-size: 60px;
+  margin: 48px 0 0 0;
+  font-family: "Open Sans", sans-serif;
 }
 
 .page-title::after {

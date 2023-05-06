@@ -1,6 +1,8 @@
 /* Variables */
 $color-main: #ff5e57;
 $color-light: #fff;
+$font-text: 'Josefin Sans', sans-serif;
+$font-header: 'Open Sans', sans-serif;
 
 /* Global */
 
@@ -17,6 +19,7 @@ body {
     color: #3d3d3d;
     font-size: 16px;
     line-height: 1.7;
+    font-family: $font-text;
 }
 
 section {
@@ -33,6 +36,7 @@ section {
     position: relative;
     font-size: 36px;
     margin: 0 0 60px 0;
+    font-family: $font-header;
 }
 
 .section-title::after {
@@ -54,7 +58,6 @@ section {
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
-    color: #fff;
 }
 
 .splash-inner {
@@ -73,6 +76,13 @@ section {
     line-height: 60px;
     color: $color-light;
     border-radius: 50%;
+}
+
+.page-title {
+    color: $color-light;
+    font-size: 60px;
+    margin: 48px 0 0 0;
+    font-family: $font-header;
 }
 
 .page-title::after {
